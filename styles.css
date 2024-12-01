@@ -1,0 +1,147 @@
+:root {
+    --ada-blue: #ffffff;
+    --ada-red: #ae485e;
+}
+
+body {
+    background-color: white;
+}
+ #names{
+    
+    font-style: bold;
+    
+ }
+ .headertable{
+  background-image: url(https://www.ada.edu.az/assets/img/content/home-call-action-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+ }
+
+ .image-of-table{
+  width: 220px;
+  height: 150px;
+  position: relative;
+ }
+
+
+ .headtable{
+   border: 1px;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background-color: #ae485e;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   border-radius: 10px;
+    }
+
+ #tableelement{
+   color: rgb(255, 255, 255);
+   font: bold;
+   font-size: large;
+ }
+
+ .secondarytable{
+  background-image: url(https://www.ada.edu.az/assets/img/content/ada-vertical-carousel-bg.jpg);
+  border: 1px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 0;
+  }
+  #tableelement2{
+    color: rgb(255, 255, 255);
+  }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+}
+  
+.card {
+  background-color: #dcd2d2; 
+  border: 1px solid #9d8484; 
+  border-radius: 8px; 
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+  
+.gates {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  h1, h2, h3, h4 {
+    font-family: cursive;
+    font-weight: 600;
+    color: #852b2bc4;
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.image-box {
+  text-align: center;
+}
+
+img {
+  width: 600px; 
+  height: auto;
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
+}
+
+.image-box h4 {
+  margin-top: 10px; 
+  font-size: 14px; 
+  color: #333; 
+}
+
+.photos{
+ width: 220px;
+ height: auto;
+ border: 1px;
+ border-radius: 50%;
+}
+
+.foottable{
+  border: 1px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ae485e;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+
+}
+
+.hour-of-code-font{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.image-of-table2{
+  width: 220px;
+  height: 150px;
+  position: relative;
+}

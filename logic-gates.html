@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Constructing Logic gates</title>
+        <link rel="stylesheet" href="styles.css">  
+        <script type="text/javascript" src="scripts.js"></script>   
+    </head>
+    <body class="gates">
+      <thead id="headtable" name="headtable">
+        <table class="headertable">
+            <tr>
+                <th>
+                    <img class="image-of-table" src="media/ada_logo_color-min.png"> <img class="image-of-table2" src="media/Team27 - CodeCrafters-min.png">
+                </th>
+            </tr>
+        </table>
+      
+        
+        
+        <table class="headtable">
+            <tr>
+                <th>
+                    <a href="index.html"><p id="tableelement">Home</p></a>
+                </th>
+                <th>
+                    <a href="team-members.html"><p id="tableelement">Team Members</p></a>
+                </th>
+                <th>
+                    <a href="hour-of-code.html"><p id="tableelement">Hour of Code</p></a>
+                </th>
+                <th>
+                    <a href="web-project.html" ><p id="tableelement">Website Project</p></a>
+                </th>
+                <th>
+                    <a href="logic-gates.html"><p id="tableelement">Logic Gates</p></a>
+                </th>
+                <th>
+                    <a href="code-artist.html" ><p id="tableelement">Code Art</p></a>
+                </th>
+                
+                
+
+            </tr>
+            </table>
+
+
+        </thead>
+        <p class="card"> In this project, the main aim of our team was to construct various
+            logic gates and to understand their fundamental operations and applications.
+            All of us learned about general understanding of how <strong> NOT, AND, OR </strong> gates work, and their importance. </p>
+        <h2> Here is the list of the dates of our lab visits:</h2>
+        <ul class="card">
+            <li> <strong> 4 October, 2024 </strong> <u> 11:30 - 12:45 </u> (2 members contributed) </li>
+            <li> <strong> 7 October, 2024 </strong> <u> 16:00 - 17:15 </u> (all members contributed) </li>
+            <li> <strong> 9 October, 2024 </strong> <u> 14:30 - 15:45  </u> (all members contributed) </li>
+        </ul>
+        <h2> Construction Steps</h2>
+        <div class="container">
+            <h3>NOT gate</h3>
+            <div class="card">
+              <p>
+                The NOT gate returned the inverted form of the input: for an input of 1, the output was 0 and vice versa. This circuit connected the base 
+                of an NPN transistor to the input through a 2kΩ resistor. When the input was on 1, the transistor conducted - which turned the LED off - 
+                that is output 0. Output was 1 while the input was 0, the transistor remained off, and the LED was ON; 
+                we used a resistor to manage the current and protect the transistor, and it worked successfully as expected.
+              </p>
+            </div>
+            <h3>  OR gate </h3>
+            <div class="card">
+             
+              <p>
+                If at least one of the inputs was 1, the OR gate would output 1. In our parallel circuit, each input was connected to the transistor's base 
+                through a 2kΩ resistor. When either or both inputs were 1, the transistor conducted and hence passed current to light up the LED (output 1). If 
+                both the inputs were 0, then the transistor remained off, so the LED was OFF (output 0).  At the end, the circuit performed accordingly with the
+                 resistors which ensured that the transistor was not overloaded.
+              </p>
+            </div>
+            <h3>AND gate </h3> 
+            <div class="card">
+             
+              <p>
+                The AND gate gave 1 output only in the case when both inputs were 1. In our construction, we connected NPN transistors in series controlled 
+                by different inputs with a 2kΩ resistor. If both inputs were 1, then both the transistors conducted, and the LED lit up (that is, output 1). 
+                In the case when at least one input was 0, accordingly, neither transistor conducted, blocking the current, and the LED stayed OFF (output 0).
+                 The circuit worked properly, that is both inputs needed to be 1 to provide an ON condition for the LED.
+             </p>
+            </div>
+            <h3>NAND gate</h3> 
+            <div class="card">
+             
+              <p>
+                The NAND gate returned 0 only if both the inputs were 1. It uses the same setup as the AND gate but provides the inverse of the result. In our 
+                construction of NAND gate together with Team 30, when both the inputs were 1, both the transistors conducted, and the LED was off (output 0). 
+                When each input was zero, the current ceased, and the LED turned on - output 1. The circuit worked as expected: the resistors saved current levels,
+                 and the correct logic behavior was there.
+             </p>
+            </div>
+          </div>
+        <h1> Difficulties</h1>
+        <p class="card"> 
+            OR gate was the most complicated gate for us, as it has more components to combine. Even, we tried it 3 or 4 times, at the end we achieved our goal, and 
+            accomplished successfully. Also, in our first lab, we were a little bit confused when we constructed a NOT-gate. We had mistaken the cathode and anode sides of 
+            LED. <strong>Latafat Aghazadeh </strong> from <em>Team 04 </em> explained we had to change the place of LED. Additionally, as shown from our video, when we were combining the AND-gate, an
+            error occurred. We did not push the button, but the LED was on which was not appropriate for AND-gate. While we tried to find out our mistake, we realized that we 
+            did not connect the emitter of the transistor to the cathode of power supply. After correction, everything was fixed, and the AND-gate worked correctly. At the end, 
+            while we were combining NAND-gate together with Team 30, we had a mistake in connecting output of the AND-gate to the input of NOT-gate. Then, with the help of Lab 
+            Coordinator <strong> Mr. Nariman Vahabli </strong> we resolved this issue.
+        </p>
+        <h1>Individual Contribution Table</h1>
+        <table class="card">
+         <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>Contribution to the project</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nuray Namazova</td>
+      <td>Visited all the labs, explained NOT gate, helped in constructing AND and OR gates, to understanding of NAND gate, to build NAND gate, to shoot the videos, wrote the lab report with the help of other team members</td>
+    </tr>
+    <tr>
+      <td>Muhammad Rafiyev</td>
+      <td>Visited all the labs, explained OR gate, helped in constructing AND and NOT gates, to build NAND gate, to explain NAND gate, helped to shoot videos and for lab report</td>
+    </tr>
+    <tr>
+      <td>Nazim Aliyev</td>
+      <td>Visited last 2 labs, edited the demo videos, helped in constructing all gates, to build NAND gate, to shoot videos and for lab report</td>
+    </tr>
+    <tr>
+      <td>Kamran Gafarli</td>
+      <td>Visited last 2 labs, explained AND gate, helped in constructing OR and NOT gates, contributed to NAND gate, to shoot videos</td>
+    </tr>
+  </tbody>
+</table>
+<div class="container">
+    <h2> Photos of Gates</h2>
+    <div class="row">
+        <div class="image-box"> 
+           <img src="media/not-gate-min.png" alt="NOT-gate">
+           <h4> NOT GATE</h4>
+        </div>
+        <div class="image-box">
+           <img src="media/or-gate-min.png" alt="OR-gate">
+           <h4> OR GATE</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="image-box">
+           <img src="media/and-gate-min.png" alt="AND-gate">
+           <h4> AND GATE</h4>
+        </div>
+        <div class="image-box">
+           <img src="media/nand-gate-min.png" alt="NAND-gate">
+           <h4> NAND GATE (together with TEAM 30) </h4>
+        </div>
+    </div>
+ </div>
+
+ <tfoot>
+  <table class="foottable">
+      <tr>
+          <th>
+              <p><b><i>Created by Team 27: Muhammad Rafiyev (mrafiyev17311@ada.edu.az) Nuray Namazova (nnamazova20412@ada.edu.az), Kamran Gafarli (kgafarli23363), Nazim Aliyev(naliyev19937@ada.edu.az)</i></b></p>
+              <a href="https://www.instagram.com/ada_site_team27/">Instagram Page of Team 27</a>
+          </th>
+      </tr>
+      
+  </table>
+ </tfoot>
+
+
+
+
+        
+
+
+        
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
